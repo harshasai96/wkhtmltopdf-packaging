@@ -19,7 +19,7 @@ jobs:
     strategy:
       matrix:
         package_target:
-          - focal-amd64
+          - focal-arm64
       fail-fast: false
     steps:
       - name: configure docker
